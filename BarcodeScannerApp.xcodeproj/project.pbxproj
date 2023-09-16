@@ -62,7 +62,6 @@
 			children = (
 				AEE11C422AB611A300D14A4E /* Utilities */,
 				AEE11C402AB6118100D14A4E /* Views */,
-				AEE11C3E2AB6114300D14A4E /* Screens */,
 				AE8BE54D2AAFA9B000CC93B2 /* Info.plist */,
 				AE8BE53F2AAFA21E00CC93B2 /* BarcodeScannerAppApp.swift */,
 				AE8BE5432AAFA21F00CC93B2 /* Assets.xcassets */,
@@ -79,14 +78,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AEE11C3E2AB6114300D14A4E /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				AEE11C3F2AB6114A00D14A4E /* BarcodeScanner */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
 		AEE11C3F2AB6114A00D14A4E /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +90,7 @@
 		AEE11C402AB6118100D14A4E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AEE11C3F2AB6114A00D14A4E /* BarcodeScanner */,
 				AEE11C412AB6118A00D14A4E /* UIKit Components */,
 			);
 			path = Views;
